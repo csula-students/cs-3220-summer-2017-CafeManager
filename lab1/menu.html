@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mickey's Cafe</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <section class="container">
+            <h1>Mickey's Cafe</h1>
+            <nav>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="index.html">Order Statuses</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Order statuses</h2>
+            <ul>
+                <li>
+                    Hamburger - $9.99
+                    <button class="checkout-button" data-name="Hamburger" data-price="9.99">Add to cart</button>
+                </li>
+                <li>
+                    Salad - $5.99
+                    <button class="checkout-button" data-name="Salad" data-price="5.99">Add to cart</button>
+                </li>
+                                <li>
+                    Coffee - $1.49
+                    <button class="checkout-button" data-name="Coffee" data-price="1.49">Add to cart</button>
+                </li>
+                <li>
+                    Latte - $1.99
+                    <button class="checkout-button" data-name="Latte" data-price="1.99">Add to cart</button>
+                </li>
+            </ul>
+
+        </section>
+        <form class="form">
+            Item name:<br>
+        <input type="text" name="name">
+        <br>
+            Item Price:<br>
+        <input type="text" name="price">
+        </form>
+    </main>
+    <footer>
+        <div class="container">
+            © Kevin Flores, 2017
+        </div>
+    </footer>
+</body>
+</html>
